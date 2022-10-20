@@ -9,8 +9,13 @@ const Home = () => {
   return (
     <div>
       {/* device section */}
-      <section className="lg:grid grid-cols-2 flex flex-col-reverse lg:px-[157px] px-[19px] lg:pt-[225px] pt-[150px]  lg:text-start lg:gap-[50px] gap-[32px]">
-        <div className="grid justify-items-center lg:justify-items-start">
+      <section className="lg:grid grid-cols-2 flex flex-col-reverse lg:px-[157px] px-[19px] lg:pt-[150px] pt-[100px]  lg:text-start lg:gap-[50px] gap-[32px]">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+          className="grid justify-items-center lg:justify-items-start "
+        >
           <h1 className=" lg:text-[48px] text-[30px] font-bold mb-[12px]">
             Making the most of the ever-growing <br />{" "}
             <span className="text-[#EE4248]">Information Technology</span>
@@ -23,13 +28,31 @@ const Home = () => {
             Read More
           </button>
         </div>
-        <img className="" src={device} alt="" />
+        <img
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+          className=""
+          src={device}
+          alt=""
+        />
       </section>
       {/* typing section */}
       <section className="bg-[#F6F6F6] ">
         <div className="lg:px-[157px] px-[19px] py-[57px] lg:grid grid-cols-2 gap-[50px] items-center">
-          <img src={typing} alt="" />
-          <div className="lg:text-start">
+          <img
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            src={typing}
+            alt=""
+          />
+          <div
+            data-aos="zoom-in-left"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            className="lg:text-start"
+          >
             <h3 className="text-[32px] font-bold lg:mt-0 mt-[40px]">
               Welcome to{" "}
               <span className="text-[#EE4248] ">
@@ -54,10 +77,20 @@ const Home = () => {
       </section>
       {/* Product and Service section */}
       <section className="lg:my-[115px] mt-[36px] ">
-        <h3 className="lg:mb-[57px] mb-[32px] font-medium text-[32px]">
+        <h3
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+          className="lg:mb-[57px] mb-[32px] font-medium text-[32px]"
+        >
           Product and Service
         </h3>
-        <div className="flex justify-center ">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+          className="flex justify-center "
+        >
           <div className="lg:grid grid-cols-3  gap-[53px] lg:px-[157px] px-[19px] lg:text-start">
             <div className="grid justify-items-center lg:justify-items-start mb-[60px]">
               <img className="w-[87px]" src={service1} alt="" />

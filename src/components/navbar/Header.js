@@ -7,7 +7,7 @@ import button from "../../asset/img/button.png";
 
 const header = () => {
   return (
-    <div className=" fixed navbar bg-base-100 shadow-md h-[100px] lg:px-[160px]">
+    <div className="navbar bg-base-100 shadow-md h-[100px] lg:px-[160px]">
       <div className="navbar-start">
         <a className="btn btn-ghost normal-case text-xl">
           <img src={logo} alt="" />

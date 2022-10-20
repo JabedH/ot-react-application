@@ -58,7 +58,7 @@ const Home = () => {
           Product and Service
         </h3>
         <div className="flex justify-center">
-          <div className="grid grid-cols-3 gap-[43px] px-[157px]">
+          <div className="grid grid-cols-3 gap-[53px] px-[157px]">
             <div className="text-start">
               <img className="w-[87px]" src={service1} alt="" />
               <h3 className="my-[15px] text-[28px] font-bold text-[#EE4248]">

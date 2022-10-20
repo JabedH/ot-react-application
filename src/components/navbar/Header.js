@@ -88,16 +88,22 @@ const header = () => {
             class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a class="justify-between">
-                Profile
-                <span class="badge">New</span>
-              </a>
+              <a>Services</a>
             </li>
             <li>
-              <a>Settings</a>
+              <a>Product</a>
             </li>
             <li>
-              <a>Logout</a>
+              <a>Technology</a>
+            </li>
+            <li tabIndex={0}>
+              <a>About</a>
+            </li>
+            <li tabIndex={0}>
+              <a>Client</a>
+            </li>
+            <li>
+              <a>Partner</a>
             </li>
           </ul>
         </div>

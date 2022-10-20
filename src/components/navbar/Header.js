@@ -14,7 +14,7 @@ const header = () => {
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal p-0 text-[18px] flex gap-[50px]">
+        <ul className="menu menu-horizontal p-0 text-[18px] flex gap-[20px]">
           <li>
             <a>Services</a>
           </li>

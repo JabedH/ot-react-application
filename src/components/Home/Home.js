@@ -9,9 +9,9 @@ const Home = () => {
   return (
     <div>
       {/* device section */}
-      <section className="grid grid-cols-2 px-[157px] py-[125px] text-start gap-[50px]">
-        <div>
-          <h1 className=" text-[48px]  font-bold mb-[12px]">
+      <section className="lg:grid grid-cols-2 flex flex-col-reverse lg:px-[157px] px-[19px] lg:pt-[225px] pt-[150px]  lg:text-start lg:gap-[50px] gap-[32px]">
+        <div className="grid justify-items-center lg:justify-items-start">
+          <h1 className=" lg:text-[48px] text-[30px] font-bold mb-[12px]">
             Making the most of the ever-growing <br />{" "}
             <span className="text-[#EE4248]">Information Technology</span>
           </h1>
@@ -19,24 +19,24 @@ const Home = () => {
             Managed by a team of professional experts with extensive experience
             and impressive track records
           </p>
-          <button className="bg-[#EE4248] btn text-white p-[12px] border-0 my-12 w-32 h-14">
+          <button className="bg-[#EE4248] btn text-white p-[12px] border-0 lg:my-12 my-5 w-32 h-14">
             Read More
           </button>
         </div>
-        <img src={device} alt="" />
+        <img className="" src={device} alt="" />
       </section>
       {/* typing section */}
       <section className="bg-[#F6F6F6] ">
-        <div className="px-[157px] py-[57px] grid grid-cols-2 gap-[50px] items-center">
+        <div className="lg:px-[157px] px-[19px] py-[57px] lg:grid grid-cols-2 gap-[50px] items-center">
           <img src={typing} alt="" />
-          <div className="text-start">
-            <h3 className="text-[32px] font-bold">
+          <div className="lg:text-start">
+            <h3 className="text-[32px] font-bold lg:mt-0 mt-[40px]">
               Welcome to{" "}
               <span className="text-[#EE4248] ">
                 Dwidasa Samsara <br /> Indonesia (DSI)
               </span>
             </h3>
-            <p className="text-[18px] leading-[27px] w-[500px] text-justify">
+            <p className="text-[18px] leading-[27px] lg:w-[500px] text-justify">
               Dwidasa Samsara Indonesia (DSI) was firstly established in 2010 by
               the founders, who each of them has a common end objective to
               innovate new creations by making the most of the ever-growing
@@ -53,13 +53,13 @@ const Home = () => {
         </div>
       </section>
       {/* Product and Service section */}
-      <section className="my-[115px]">
-        <h3 className="mb-[57px] font-medium text-[32px]">
+      <section className="lg:my-[115px] mt-[36px] ">
+        <h3 className="lg:mb-[57px] mb-[32px] font-medium text-[32px]">
           Product and Service
         </h3>
-        <div className="flex justify-center">
-          <div className="grid grid-cols-3 gap-[53px] px-[157px]">
-            <div className="text-start">
+        <div className="flex justify-center ">
+          <div className="lg:grid grid-cols-3  gap-[53px] lg:px-[157px] px-[19px] lg:text-start">
+            <div className="grid justify-items-center lg:justify-items-start mb-[60px]">
               <img className="w-[87px]" src={service1} alt="" />
               <h3 className="my-[15px] text-[28px] font-bold text-[#EE4248]">
                 Our Product
@@ -72,7 +72,7 @@ const Home = () => {
                 Read More
               </button>
             </div>
-            <div className="text-start">
+            <div className="grid justify-items-center lg:justify-items-start mb-[60px]">
               <img className="w-[87px]" src={service2} alt="" />
               <h3 className="my-[15px] text-[28px] font-bold text-[#EE4248]">
                 Our Service
@@ -86,7 +86,7 @@ const Home = () => {
                 Read More
               </button>
             </div>
-            <div className="text-start">
+            <div className="grid justify-items-center lg:justify-items-start mb-[60px]">
               <img className="w-[87px]" src={service3} alt="" />
               <h3 className="my-[15px] text-[28px] font-bold text-[#EE4248]">
                 Our Technology

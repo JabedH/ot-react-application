@@ -5,18 +5,18 @@ import grouplogo from "../../asset/img/Group-logo.png";
 const footer = () => {
   return (
     <div>
-      <div className="grid grid-cols-3 gap-4 items-end px-[157px] pt-[28px] pb-[24px] text-start">
+      <div className="lg:grid grid-cols-3 gap-4 items-end lg:px-[157px] px-[19px] pt-[28px] pb-[24px] text-start">
         <div className="">
           <img src={logo} alt="" />
           <p className="text-[18px] font-bold">PT Dwidasa Samsara Indonesia</p>
-          <p>
+          <p className="text-[#263238]">
             Ruko Jalur Sutera 29A No. 53 <br /> Alam Sutera Serpong, Tangerang
             15323
           </p>
         </div>
-        <div className="">
+        <div className="lg:my-0 my-[32px]">
           <h3 className="text-[24px] font-bold">Contact</h3>
-          <p>
+          <p className="text-[#263238] ">
             Phone : +62.21.5314.1135 <br /> Fax : +62.21.5314.1135 <br /> Email
             : community@dwidasa.com
           </p>

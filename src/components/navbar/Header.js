@@ -7,7 +7,7 @@ import button from "../../asset/img/button.png";
 
 const header = () => {
   return (
-    <div className="  navbar bg-base-100 shadow-md h-[100px] lg:px-[160px]">
+    <div className=" fixed navbar bg-base-100 shadow-md h-[100px] lg:px-[160px]">
       <div className="navbar-start">
         <a className="btn btn-ghost normal-case text-xl">
           <img src={logo} alt="" />
@@ -74,7 +74,7 @@ const header = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <div className="grid grid-cols-3 gap-5 lg:visible invisible">
+        <div className="grid grid-cols-3 gap-5 items-end lg:visible invisible">
           <img src={Union} alt="" />
           <img src={mail} alt="" />
           <img src={shuffle} alt="" />
